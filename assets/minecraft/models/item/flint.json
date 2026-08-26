@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/flint"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 20001 }, "model": "minecraft:item/dushi_common" },
+    { "predicate": { "custom_model_data": 20002 }, "model": "minecraft:item/dushi_advanced" },
+    { "predicate": { "custom_model_data": 20003 }, "model": "minecraft:item/dushi_mythic" },
+    { "predicate": { "custom_model_data": 20004 }, "model": "minecraft:item/dushi_wuxing" }
+  ]
+}

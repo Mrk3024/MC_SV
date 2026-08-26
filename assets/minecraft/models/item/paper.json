@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 10001 }, "model": "minecraft:item/lingshi_low" },
+    { "predicate": { "custom_model_data": 10002 }, "model": "minecraft:item/lingshi_mid" },
+    { "predicate": { "custom_model_data": 10003 }, "model": "minecraft:item/lingshi_high" },
+    { "predicate": { "custom_model_data": 10004 }, "model": "minecraft:item/lingshi_top" },
+
+    { "predicate": { "custom_model_data": 11001 }, "model": "minecraft:item/lingshi_jin_low" },
+    { "predicate": { "custom_model_data": 11002 }, "model": "minecraft:item/lingshi_jin_mid" },
+    { "predicate": { "custom_model_data": 11003 }, "model": "minecraft:item/lingshi_jin_high" },
+    { "predicate": { "custom_model_data": 11004 }, "model": "minecraft:item/lingshi_jin_top" },
+
+    { "predicate": { "custom_model_data": 11005 }, "model": "minecraft:item/lingshi_mu_low" },
+    { "predicate": { "custom_model_data": 11006 }, "model": "minecraft:item/lingshi_mu_mid" },
+    { "predicate": { "custom_model_data": 11007 }, "model": "minecraft:item/lingshi_mu_high" },
+    { "predicate": { "custom_model_data": 11008 }, "model": "minecraft:item/lingshi_mu_top" },
+
+    { "predicate": { "custom_model_data": 11009 }, "model": "minecraft:item/lingshi_shui_low" },
+    { "predicate": { "custom_model_data": 11010 }, "model": "minecraft:item/lingshi_shui_mid" },
+    { "predicate": { "custom_model_data": 11011 }, "model": "minecraft:item/lingshi_shui_high" },
+    { "predicate": { "custom_model_data": 11012 }, "model": "minecraft:item/lingshi_shui_top" },
+
+    { "predicate": { "custom_model_data": 11013 }, "model": "minecraft:item/lingshi_huo_low" },
+    { "predicate": { "custom_model_data": 11014 }, "model": "minecraft:item/lingshi_huo_mid" },
+    { "predicate": { "custom_model_data": 11015 }, "model": "minecraft:item/lingshi_huo_high" },
+    { "predicate": { "custom_model_data": 11016 }, "model": "minecraft:item/lingshi_huo_top" },
+
+    { "predicate": { "custom_model_data": 11017 }, "model": "minecraft:item/lingshi_tu_low" },
+    { "predicate": { "custom_model_data": 11018 }, "model": "minecraft:item/lingshi_tu_mid" },
+    { "predicate": { "custom_model_data": 11019 }, "model": "minecraft:item/lingshi_tu_high" },
+    { "predicate": { "custom_model_data": 11020 }, "model": "minecraft:item/lingshi_tu_top" }
+  ]
+}
